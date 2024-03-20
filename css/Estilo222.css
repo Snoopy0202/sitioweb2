@@ -1,0 +1,174 @@
+header{
+  background: #FFC803;
+  color: black;
+  padding: 20px;
+  text-align: center;
+
+}
+
+
+nav ul{
+  margin: 8px 8px 8px 8px;
+  padding: 8px 8px 8px 8px;
+  background-color: #FFE7BE ;
+  list-style: none;
+  width: 95%;
+  text-align: center;
+
+}
+
+nav li{
+  display: inline-flex;
+  margin: 0 30px;
+}
+
+
+nav a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  width: 190px;
+}
+
+
+nav a:hover{
+ color: black;
+ background-color: #FFE390;
+}
+
+body{
+  font-family: "Bitter", serif;
+  background: #FFE880;
+}
+
+header h1{
+  font-family: "Bitter", serif;
+
+}
+
+header nav{
+font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+main{
+   font-family: "Bitter", serif;
+   max-width: 1000px;
+   margin: 20px auto;
+   padding: 0 20px;
+   background-color: white;
+}
+
+
+
+.lista-productoss{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/*Para hacer referencia a las clases debemos asignar un punto(.)
+al inicio del nombre de la clase*/
+.productooss{
+    width: 30%;
+    background-color: #fff;
+    padding: 20px 5px 20px 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+    transition: box-shadow 0.8s ease-in-out;
+    
+}
+
+.productooss:Hover{
+  box-shadow: 0 0 30px rgba(100, 0, 0, 0.8);
+}
+
+.productooss img{
+  width: 220px;
+  height: 220px;
+  display: block ;
+  transition: transform 0.3s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+
+.productooss:hover img{
+  transform: scale(1.1);
+
+}
+
+.productooss button{
+  display: block;
+  margin: 0 auto;
+  background-color: #7C642D;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: backround-color 0.3s ease-in-out;
+}
+
+.productooss button:hover{
+  background-color: orange;
+}
+
+footer{
+  background-color: #F5D547 ;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: "Bitter";
+  font-size: 18px;
+
+}
+
+.links-informaticoss{
+  width: 400px;
+}
+
+
+.links-informaticoss ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.links-informaticoss li a{
+  text-decoration: none;
+  color: black;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.redes-socialess{
+  width: 300px;
+}
+
+.redes-socialess img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.redes-socialess li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-socialess img:hover{
+  transform: scale(1.1);
+}
+
+.info-contacto{
+  width: 200px;
+  text-align: right;
+  font-size:16px ;
+}
